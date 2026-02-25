@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Luchiky Logistics — Delivery Service in Enugu</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,600;0,9..40,700;1,9..40,300&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#" class="nav-logo">
+        <span class="logo-icon">L</span>
+        <div>
+          <span class="logo-name">Luchiky</span>
+          <span class="logo-sub">Logistics</span>
+        </div>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="tel:08143589262" class="nav-cta">Call Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO SLIDER -->
+  <section class="hero" id="home">
+    <div class="hero-slides">
+      <div class="slide slide-1 active">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <p class="slide-tag">Enugu's Premier Delivery Service</p>
+          <h1>Fast.<br>Reliable.<br>Trusted.</h1>
+          <p class="slide-desc">Your packages delivered with care, speed, and precision across Enugu State and beyond.</p>
+          <a href="#contact" class="btn-primary">Get a Quote</a>
+        </div>
+      </div>
+      <div class="slide slide-2">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <p class="slide-tag">Innovation-Driven Logistics</p>
+          <h1>We Deliver<br>More Than<br>Packages.</h1>
+          <p class="slide-desc">We deliver trust, commitment, and a future-focused logistics experience built on your satisfaction.</p>
+          <a href="#services" class="btn-primary">Our Services</a>
+        </div>
+      </div>
+      <div class="slide slide-3">
+        <div class="slide-overlay"></div>
+        <div class="slide-content">
+          <p class="slide-tag">Customer-Centric Approach</p>
+          <h1>Your Success<br>Is Our<br>Mission.</h1>
+          <p class="slide-desc">From first mile to last mile, we are with you every step — delivering value across every route.</p>
+          <a href="#about" class="btn-primary">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-controls">
+      <button class="hero-prev" id="heroPrev" aria-label="Previous slide">&#8592;</button>
+      <div class="hero-dots" id="heroDots">
+        <span class="dot active" data-index="0"></span>
+        <span class="dot" data-index="1"></span>
+        <span class="dot" data-index="2"></span>
+      </div>
+      <button class="hero-next" id="heroNext" aria-label="Next slide">&#8594;</button>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll Down</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- STATS STRIP -->
+  <section class="stats-strip">
+    <div class="stats-container">
+      <div class="stat-item">
+        <span class="stat-num" data-target="5000">0</span><span class="stat-plus">+</span>
+        <p>Deliveries Made</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="98">0</span><span class="stat-plus">%</span>
+        <p>On-Time Rate</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="12">0</span><span class="stat-plus">+</span>
+        <p>Routes Covered</p>
+      </div>
+      <div class="stat-divider"></div>
+      <div class="stat-item">
+        <span class="stat-num" data-target="3">0</span><span class="stat-plus">+</span>
+        <p>Years in Service</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">What We Offer</span>
+        <h2>Our Core Services</h2>
+        <p>Comprehensive logistics solutions designed around your needs and timeline.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M5 20H35M35 20L26 11M35 20L26 29" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Same-Day Delivery</h3>
+          <p>Urgent shipments delivered within hours. Your time-sensitive packages handled with top priority across Enugu.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+        <div class="service-card featured">
+          <div class="service-badge">Most Popular</div>
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="4" y="8" width="32" height="22" rx="3" stroke="currentColor" stroke-width="2.5"/><path d="M14 30V34M26 30V34M10 34H30" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M4 16H36" stroke="currentColor" stroke-width="2.5"/></svg>
+          </div>
+          <h3>Corporate Logistics</h3>
+          <p>Tailored logistics packages for businesses of all sizes. Consistent, scalable delivery solutions with dedicated account management.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="20" cy="20" r="14" stroke="currentColor" stroke-width="2.5"/><path d="M20 10V20L27 27" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Scheduled Pickup</h3>
+          <p>Plan your deliveries in advance. Schedule recurring pickups and enjoy streamlined, predictable logistics management.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 12H32V30H8V12Z" stroke="currentColor" stroke-width="2.5" rx="2"/><path d="M14 12V8H26V12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M14 20H26M14 25H22" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Document Courier</h3>
+          <p>Confidential documents handled with discretion. Fast, secure document delivery across all local government areas in Enugu.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6 28L14 20L20 26L28 16L34 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 32H34" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </div>
+          <h3>E-Commerce Delivery</h3>
+          <p>Powering online businesses with reliable last-mile delivery. Integrated solutions for Jumia, Instagram, and independent vendors.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M20 6L34 14V26L20 34L6 26V14L20 6Z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/><path d="M20 6V34M6 14L34 26M34 14L6 26" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Interstate Shipping</h3>
+          <p>Beyond Enugu — reliable interstate shipping connections to Abuja, Lagos, Port Harcourt, and other major Nigerian cities.</p>
+          <a href="#contact" class="service-link">Book Now &#8594;</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-container about-inner">
+      <div class="about-visual">
+        <div class="about-img-block">
+          <div class="about-img-main"></div>
+          <div class="about-badge">
+            <span class="badge-num">3+</span>
+            <span class="badge-label">Years of Excellence</span>
+          </div>
+        </div>
+      </div>
+      <div class="about-content">
+        <span class="section-tag">Who We Are</span>
+        <h2>Built on Purpose,<br>Driven by Innovation</h2>
+        <p class="about-lead">Luchiky Logistics is Enugu's forward-thinking delivery company, rooted at 36 Carter Street, Achara — and reaching everywhere your business needs to go.</p>
+        <blockquote class="mission-quote">
+          "To be the most future-focused, innovation-driven, impact-oriented, customer-centric, aspirational and value-based Logistic Company on this planet."
+        </blockquote>
+        <div class="about-features">
+          <div class="feat">
+            <div class="feat-dot"></div>
+            <p>Certified, professional delivery team</p>
+          </div>
+          <div class="feat">
+            <div class="feat-dot"></div>
+            <p>Real-time delivery tracking support</p>
+          </div>
+          <div class="feat">
+            <div class="feat-dot"></div>
+            <p>Insured handling for valuable goods</p>
+          </div>
+          <div class="feat">
+            <div class="feat-dot"></div>
+            <p>Flexible pricing for every business size</p>
+          </div>
+        </div>
+        <div class="about-cta-row">
+          <a href="tel:08143589262" class="btn-primary">Call Us: 0814 358 9262</a>
+          <a href="#services" class="btn-ghost">View Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="how-it-works">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Process</span>
+        <h2>How It Works</h2>
+        <p>Simple, streamlined, and stress-free from start to finish.</p>
+      </div>
+      <div class="steps-row">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h4>Place Your Order</h4>
+          <p>Contact us via phone or WhatsApp. Provide pickup address, destination, and item details.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h4>We Pick Up</h4>
+          <p>Our rider arrives at your location promptly. Package is safely collected and logged.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h4>In Transit</h4>
+          <p>Your delivery moves through our network. You stay informed every step of the way.</p>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h4>Delivered</h4>
+          <p>Package arrives safe, intact, and on time. Confirmation sent upon successful delivery.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="reviews" id="reviews">
+    <div class="section-container">
+      <div class="section-header">
+        <span class="section-tag">Testimonials</span>
+        <h2>What Our Clients Say</h2>
+        <div class="google-rating-bar">
+          <svg class="google-g" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+          <div class="stars-row">
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+            <span class="star filled">&#9733;</span>
+          </div>
+          <span class="rating-score">5.0</span>
+          <span class="rating-label">Google Rating</span>
+        </div>
+      </div>
+      <div class="reviews-grid">
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar">C</div>
+            <div class="reviewer-info">
+              <h5>Chioma Okafor</h5>
+              <span class="review-date">January 2025</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">Luchiky delivered my goods on the same day I called. The rider was professional and my items arrived in perfect condition. I have used them three times now and they never disappoint. Highly recommended for anyone in Enugu.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#1a73e8">E</div>
+            <div class="reviewer-info">
+              <h5>Emeka Nwosu</h5>
+              <span class="review-date">February 2025</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">As a small business owner, I rely on Luchiky every week for my deliveries. Their pricing is fair, the team is communicative, and my customers are always happy. This is the best logistics company in Enugu by far.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#0f9d58">A</div>
+            <div class="reviewer-info">
+              <h5>Adaeze Ugwu</h5>
+              <span class="review-date">March 2025</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">I sent documents from Enugu to a client urgently. Luchiky came through in less than 2 hours. The whole experience was smooth and the rider kept me updated throughout. Will always use them for important deliveries.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#f4b400">K</div>
+            <div class="reviewer-info">
+              <h5>Kelechi Eze</h5>
+              <span class="review-date">December 2024</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">Excellent service from start to finish. I needed my package moved on a Sunday and they were available. Very rare for a logistics company in Enugu. Luchiky is definitely setting the standard in this industry.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#db4437">O</div>
+            <div class="reviewer-info">
+              <h5>Obiageli Ani</h5>
+              <span class="review-date">November 2024</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">I run a boutique and Luchiky has been handling all my deliveries for months. Very trustworthy people. My clients always confirm that items arrive neatly packed and on time. I cannot recommend them enough.</p>
+        </div>
+
+        <div class="review-card">
+          <div class="review-header">
+            <div class="reviewer-avatar" style="background:#673ab7">U</div>
+            <div class="reviewer-info">
+              <h5>Uchenna Mbah</h5>
+              <span class="review-date">October 2024</span>
+            </div>
+            <div class="review-google-badge">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="18"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/></svg>
+            </div>
+          </div>
+          <div class="review-stars">
+            <span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span><span>&#9733;</span>
+          </div>
+          <p class="review-text">Outstanding logistics company. What sets Luchiky apart is their communication. They always let you know where your package is. In a market where many companies go silent after pickup, this team is refreshingly different.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-container contact-inner">
+      <div class="contact-info">
+        <span class="section-tag">Get In Touch</span>
+        <h2>Ready to Send?<br>Let's Talk.</h2>
+        <p>We are open and available to handle your deliveries promptly. Reach us directly or send a message below.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <p>36 Carter St, Achara, Enugu 400102, Enugu</p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:08143589262">0814 358 9262</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="detail-icon">
+              <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 14.5v-9l6 4.5-6 4.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Business Hours</strong>
+              <p>Mon - Sat: 7:30 AM - 7:00 PM</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <form class="contact-form" id="contactForm">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Full Name</label>
+              <input type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="080XXXXXXXX" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Service Needed</label>
+            <select>
+              <option value="">Select a service</option>
+              <option>Same-Day Delivery</option>
+              <option>Corporate Logistics</option>
+              <option>Scheduled Pickup</option>
+              <option>Document Courier</option>
+              <option>E-Commerce Delivery</option>
+              <option>Interstate Shipping</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Message</label>
+            <textarea placeholder="Describe your delivery needs..." rows="4"></textarea>
+          </div>
+          <button type="submit" class="btn-primary btn-full">Send Message</button>
+          <div class="form-success" id="formSuccess">Message sent! We will be in touch shortly.</div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <a href="#" class="nav-logo">
+          <span class="logo-icon">L</span>
+          <div>
+            <span class="logo-name">Luchiky</span>
+            <span class="logo-sub">Logistics</span>
+          </div>
+        </a>
+        <p>Enugu's most trusted, future-focused delivery and logistics company. Serving you from 36 Carter Street, Achara.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#services">Same-Day Delivery</a></li>
+          <li><a href="#services">Corporate Logistics</a></li>
+          <li><a href="#services">Document Courier</a></li>
+          <li><a href="#services">E-Commerce Delivery</a></li>
+          <li><a href="#services">Interstate Shipping</a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Info</h4>
+        <p>36 Carter St, Achara,<br>Enugu 400102, Enugu</p>
+        <p><a href="tel:08143589262">0814 358 9262</a></p>
+        <p>Mon - Sat: 7:30 AM - 7:00 PM</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&#169; 2025 Luchiky Logistics. All rights reserved.</p>
+      <p>36 Carter St, Achara, Enugu</p>
+    </div>
+  </footer>
+
+  <!-- WHATSAPP FLOATING -->
+  <a href="https://wa.me/2348143589262" target="_blank" class="whatsapp-float" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+      <path d="M16 1C7.716 1 1 7.716 1 16c0 2.628.675 5.098 1.852 7.254L1 31l7.97-2.088A14.931 14.931 0 0016 31c8.284 0 15-6.716 15-15S24.284 1 16 1zm0 27.5a12.44 12.44 0 01-6.418-1.78l-.46-.275-4.729 1.239 1.261-4.607-.302-.476A12.5 12.5 0 1116 28.5z" fill="#fff"/>
+      <path d="M12.39 9.907c-.306-.683-.629-.697-.919-.71-.238-.011-.511-.01-.783-.01-.272 0-.714.102-1.088.511-.374.409-1.428 1.395-1.428 3.403 0 2.008 1.462 3.949 1.666 4.222.204.272 2.822 4.487 6.941 6.112 3.434 1.356 4.12.983 4.862.921.742-.061 2.397-.98 2.735-1.928.337-.948.337-1.762.236-1.931-.102-.168-.374-.271-.782-.476-.408-.204-2.416-1.19-2.79-1.327-.374-.136-.646-.204-.918.204-.272.408-1.054 1.327-1.292 1.599-.238.272-.476.306-.884.102-.408-.204-1.722-.634-3.28-2.02-1.212-1.08-2.031-2.413-2.269-2.821-.238-.408-.025-.629.178-.831.183-.183.408-.476.612-.714.204-.238.272-.408.408-.68.136-.272.068-.511-.034-.714-.102-.204-.9-2.22-1.251-3.032z" fill="#fff"/>
+    </svg>
+  </a>
+
+  <!-- BACK TO TOP -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 4L4 12H9V20H15V12H20L12 4Z" fill="currentColor"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
